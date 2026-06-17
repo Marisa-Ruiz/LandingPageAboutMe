@@ -1,0 +1,13 @@
+header{background-color: #4a2840;}
+header h1{font-family:'Georgia', Times New Roman, Times, serif; font-size: 100px; text-align: center; color: #f2eefa;}
+body{background-color:#d8cde3; margin: 75px 200px; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+.info-section{display: grid; grid-template-columns: 1fr 250px; gap: 75px; align-items: center; margin-bottom: 60px; grid-template-areas: "title title-image" "text title-image";}
+.info-section h3{grid-area: title; text-align: left;}
+.info-section p{grid-area: text; text-align: left;}
+.info-section img{grid-area: title-image; width: 100%; height: auto;}
+.info-section.inverted{grid-template-columns: 250px 1fr; grid-template-areas: "title-image title" "title-image text";}
+.info-section.inverted h3,
+.info-section.inverted p{text-align: right;}
+h3{font-size: 35px; margin-bottom: -25px; color: #4a2840;}
+p{font-size: 25px; margin-top: 0; color: #424248;}
+footer p{background-color: #4a2840; color: #f2eefa; font-size:small;}
